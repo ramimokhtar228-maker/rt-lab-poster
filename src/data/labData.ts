@@ -1,4 +1,7 @@
 import { PosterImage, MedicalTest, TestPackage, SocialCaption } from '../types';
+import squarePoster from '../assets/images/rt_poster_square_1791310264774.jpg';
+import storyPoster from '../assets/images/rt_poster_story_1791310277019.jpg';
+import widePoster from '../assets/images/rt_poster_wide_1791310287882.jpg';
 
 export const POSTER_IMAGES: PosterImage[] = [
   {
@@ -8,7 +11,7 @@ export const POSTER_IMAGES: PosterImage[] = [
     formatName: 'Square Post',
     dimensions: '1080 × 1080 px',
     recommendedFor: 'منشورات إنستغرام، فيسبوك، واتساب، وحالات ستوري المربعة',
-    imagePath: '/src/assets/images/rt_poster_square_1791310264774.jpg',
+    imagePath: squarePoster,
     description: 'تصميم جرافيكي متميز بهوية معامل RT للتحاليل الطبية مع بادج خصم 70% البارز وعرض اليوم الواحد مع عناصر مختبرية وثلاثية الأبعاد نقية.',
     tags: ['سوشيال ميديا', 'إنستغرام', 'فيسبوك', 'عرض اليوم الواحد', 'خصم 70%']
   },
@@ -19,7 +22,7 @@ export const POSTER_IMAGES: PosterImage[] = [
     formatName: 'Vertical Story / Flyer',
     dimensions: '1080 × 1920 px',
     recommendedFor: 'قصص Instagram Stories، تيك توك، WhatsApp Status، ستاند رول أب العيادات',
-    imagePath: '/src/assets/images/rt_poster_story_1791310277019.jpg',
+    imagePath: storyPoster,
     description: 'بوستر رأسي احترافي جذاب يبرز تفاصيل العرض مع لافتات الخصم الفوري ووجود كادر طبي في بيئة معملية متطورة للغاية.',
     tags: ['ستوري', 'تيك توك', 'رول أب', 'فلاير طبي', 'عرض اليوم الواحد']
   },
@@ -30,7 +33,7 @@ export const POSTER_IMAGES: PosterImage[] = [
     formatName: 'Widescreen Banner',
     dimensions: '1920 × 1080 px',
     recommendedFor: 'غلاف صفحة فيسبوك، بانر الموقع الإلكتروني، شاشات العرض الرقمية بالمعامل',
-    imagePath: '/src/assets/images/rt_poster_wide_1791310287882.jpg',
+    imagePath: widePoster,
     description: 'بانر إعلاني عريض بأعلى جودة يظهر أحدث أجهزة التحاليل المؤتمتة وشعارات معامل RT مع إبراز خصم 70% وعرض اليوم الواحد.',
     tags: ['غلاف فيسبوك', 'بانر موقع', 'شاشات المعمل', 'إعلانات الويب']
   }
