@@ -1,0 +1,7 @@
+{
+  "name": "معامل RT - بوستر عرض اليوم الواحد خصم 70%",
+  "description": "بوستر إعلاني احترافي واستوديو تصميم وتخصيص بهوية معامل RT للتحاليل الطبية - عرض اليوم الواحد بخصم 70% على جميع التحاليل الطبية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
